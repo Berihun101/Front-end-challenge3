@@ -1,0 +1,101 @@
+body{
+  padding: 3em 7em 0 12em;
+}
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2{
+  color: hsl(35, 77%, 62%);
+}
+h4{
+  color:  hsl(233, 8%, 79%);
+}
+.button-part{
+  background: hsl(5, 85%, 63%);
+}
+
+.nav-link{
+  margin: 0 20px;
+}
+
+.first-image{
+width: 95%;
+height: 350px;
+object-fit: cover;
+}
+.right-text{
+  color: hsl(236, 13%, 42%);
+
+}
+.heading{
+  color: hsl(36, 100%, 99%);
+  font-size: 1em;
+}
+
+.main-part{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 3px;
+}
+.right-part{
+display: flex;
+flex-direction: column;
+grid-gap: 20px;
+background-color: hsl(240, 100%, 5%);
+padding: 1% 5%;
+}
+.img-text{
+  display: grid;
+  grid-column: 1/3;
+}
+.text{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.big-text{
+  width: 60%;
+
+}
+.large-text{
+  width: 85%;
+}
+.last-part{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 40px;
+}
+
+.tinsh-hun{
+  float: left;
+  margin-right: 20px;
+  max-width: 100px;
+}
+.little-p{
+  width: 80%;
+}
+.pics{
+  margin-top: 20px;
+}
+@media only screen and (max-width: 720px) {
+  body{
+  padding: 0 1em 0 1em;
+  }
+.main-part{
+
+  grid-template-columns: 1fr;
+}
+.right-part{
+
+  grid-template-columns: 1fr;
+}
+.text{
+
+  grid-template-columns: 1fr;
+}
+.last-part{
+  grid-template-columns: 1fr;
+}
+}
